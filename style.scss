@@ -1,73 +1,6 @@
 body{
    background-color: black;
-   overflow-x: hidden;
 }
-
-
-
-
-
-/*SCROLL-BUTTON*/
-#section10  {
-  position: absolute;
-  top: 99%;
-  left: 50%;
-  width: 30px;
-  height: 50px;
-  margin-left: -15px;
-  border: 2px solid rgb(174, 0, 255);
-  border-radius: 50px;
-  box-sizing: border-box;
-}
-#section10::before {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  content: '';
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  background-color: rgb(174, 0, 255);
-  border-radius: 100%;
-  -webkit-animation: sdb10 2s infinite;
-  animation: sdb10 2s infinite;
-  box-sizing: border-box;
-}
-@-webkit-keyframes sdb10 {
-  0% {
-    -webkit-transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    -webkit-transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb10 {
-  0% {
-    transform: translate(0, 0);
-    opacity: 0;
-  }
-  40% {
-    opacity: 1;
-  }
-  80% {
-    transform: translate(0, 20px);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-/*SCROLL-BUTTON*/
-
-
 
 /*PROFILE CARDS*/
 .card{
@@ -389,7 +322,7 @@ body{
    bottom: 0;
    color: #fff;
    padding: 24px;
-   background-image: linear-gradient(0deg, #000 0%, transparent 100%);
+   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.322) 0%, transparent 100%);
    z-index: 2;
  }
  .wgh-slider-item-figure__caption a {
@@ -418,14 +351,14 @@ body{
 /*FRONT END*/
 .text1{
    text-align: center;
-   font-size: 130px;
+   font-size: 100px;
    text-shadow: 0px 0px 1px white;
    color: black;
    letter-spacing: 9px;
 }
 .text1:hover{
    text-align: center;
-   font-size: 130px;
+   font-size: 100px;
    color: rgb(255, 255, 255);
    letter-spacing: 9px;
 }
